@@ -10,7 +10,7 @@ export const SectionComponentFieldOne = () => (
       <div className="hero-head">
         <NavbarField />
       </div>
-      <div class="hero-body has-text-white nav-body">
+      <div className="hero-body has-text-white nav-body">
         <div className="container has-text-centered">
           <TitleField
             label1='TAP INTO A BRAND-NEW ASSET CLASS'
