@@ -37,5 +37,7 @@
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2"
-  }
+  },
+  "repository": "https://github.com/zyllar68/Dojo-react.git",
+  "author": "<zyllar68>"
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
-export const ButtonField = ({className, label,}) => (
-  <button className={className}>
-    {label}
-  </button>
+export const ButtonField = ({nameClass, label,}) => (
+  <a className={nameClass}>
+    <strong>{label}</strong>
+  </a>
 );
