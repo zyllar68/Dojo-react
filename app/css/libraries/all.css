@@ -159,14 +159,14 @@ body, html{
   text-decoration: none !important;
 }
 
-.section-title h1{
+.section-title>.title{
   font-family: 'Merriweather', serif !important;
   font-weight: 900;
   font-size: 1.5em !important;
   padding-bottom: 15px !important;
 }
 
-.section-title h2{
+.section-title>.subtitle{
   font-size: 1em !important;
   line-height: 24px !important;
   letter-spacing: 0.5px !important;
@@ -550,6 +550,8 @@ body, html{
 .section2{
   padding: 0px !important;
 }
+
+
 
 
 /* Mobile View */
