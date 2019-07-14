@@ -13,12 +13,12 @@ export const SectionComponentFieldOne = () => (
       <div class="hero-body has-text-white nav-body">
         <div className="container has-text-centered">
           <TitleField
-            label='TAP INTO A BRAND-NEW ASSET CLASS'
-            nameClass='title has-text-white title-section1'
+            label1='TAP INTO A BRAND-NEW ASSET CLASS'
+            nameClass1='title has-text-white title-section1'
           />
           <TitleField
-            label='Wall Street returns for the individual investor'
-            nameClass='subtitle has-text-white'
+            label1='Wall Street returns for the individual investor'
+            nameClass1='subtitle has-text-white'
           />
           <ButtonField
             nameClass='button is-light rounded-button button-signup is-bluebg has-text-white'
