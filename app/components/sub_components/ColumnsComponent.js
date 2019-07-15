@@ -1,11 +1,14 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-export const ColumnsField = ({ nameClass}) => (
-  <div className={ 'Columns' + nameClass }>
+export const ColumnsField = ({ nameClass, children}) => (
+  <div className={ 'columns ' + nameClass }>
+    {children}
   </div>
 );
 
-export const ColumnField = ({ nameClas }) => (
-  <div className={ 'Column' + nameClass }>
+export const ColumnField = ({ nameClass, children }) => (
+  <div className={ 'columns ' + nameClass }>
+    {children}
   </div>
 );

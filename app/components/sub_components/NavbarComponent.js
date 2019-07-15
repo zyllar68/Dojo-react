@@ -1,6 +1,6 @@
 import React from 'react';
 import { ButtonField } from './ButtonComponent';
-import { NavbarItem } from './NavbarItemComponent'; 
+import { NavbarItem } from './NavbarItemComponent';
 
 
 export const NavbarField = () => (
@@ -20,19 +20,19 @@ export const NavbarField = () => (
     </div>
     <div className="navbar-menu" id="navbarBasicExample">
       <div className="navbar-start nv-small-hover">
-        <NavbarItem 
+        <NavbarItem
           label='ABOUT US'
         />
-        <NavbarItem 
+        <NavbarItem
           label='HOW IT WORKS'
         />
-        <NavbarItem 
+        <NavbarItem
           label='INVESTMENT TYPES'
         />
-        <NavbarItem 
+        <NavbarItem
           label='EDUCATION'
         />
-        <NavbarItem 
+        <NavbarItem
           label='FAQ'
         />
       </div>
