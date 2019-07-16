@@ -1,7 +1,7 @@
 import React from 'react';
-import { NavbarField } from './sub_components/NavbarComponent'
-import { TitleField, SubTitleField } from './sub_components/TitleComponent';
-import { ButtonField } from './sub_components/ButtonComponent';
+import { NavbarField } from './sub_components/CustomNavbar'
+import { Title, SubTitle } from './sub_components/bulma_components/TitleComponent';
+import { LinkButton } from './sub_components/bulma_components/ButtonComponent';
 
 var image1 = "./app/css/assets/background.png";
 
@@ -12,15 +12,15 @@ export const SectionComponentFieldOne = () => (
       </div>
       <div className="hero-body has-text-white nav-body">
         <div className="container has-text-centered">
-          <TitleField
+          <Title
             label='TAP INTO A BRAND-NEW ASSET CLASS'
             nameClass='has-text-white title-section1'
           />
-          <SubTitleField
+          <SubTitle
             label='Wall Street returns for the individual investor'
             nameClass='has-text-white'
           />
-          <ButtonField
+          <LinkButton
             nameClass='is-light rounded-button button-signup is-bluebg has-text-white'
             label='GET STARTED'
           />
