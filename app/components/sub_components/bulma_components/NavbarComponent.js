@@ -4,7 +4,7 @@ export const Navbar = ({ nameClass, children, id }) => (
   <div className={ 'navbar ' + nameClass } id={ id }>
     {children}
   </div>
-);
+); 
 
 export const NavbarBrand = ({ nameClass, children }) => (
   <div className={ 'navbar-brand ' + nameClass }>

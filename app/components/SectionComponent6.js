@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Title, Subtitle } from './sub_components/bulma_components/TitleComponent';
 import { Columns, Column }  from './sub_components/bulma_components/ColumnsComponent';
 import { Button } from './sub_components/bulma_components/ButtonComponent';
-
+ 
 export const SectionComponentFieldSix = () => (
 
   <section className='section mt-2 padding-0'>

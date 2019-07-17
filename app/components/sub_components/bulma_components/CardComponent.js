@@ -5,7 +5,7 @@ export const Card = ({ nameClass, children }) => (
     { children }
   </div>
 );
-
+ 
 export const CardHeader = ({ nameClass, children }) => (
   <div className={'card-header ' + nameClass}>
     { children }

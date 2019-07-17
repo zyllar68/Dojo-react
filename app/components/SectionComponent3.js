@@ -2,7 +2,7 @@ import React from 'react';
 import { Title } from './sub_components/bulma_components/TitleComponent';
 import { Columns, Column  } from './sub_components/bulma_components/ColumnsComponent';
 import { CustomCardSection3, CustomCardContent3 } from './sub_components/CustomCard';
-
+ 
 var image1 = "./app/css/assets/city-background.png";
 
 export const SectionComponentFieldThree = () => (

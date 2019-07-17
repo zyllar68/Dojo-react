@@ -10,7 +10,7 @@ export const Title = ({ label, nameClass, children }) => (
 export const Subtitle = ({ label, nameClass }) => (
   <div className={ 'subtitle ' + nameClass}>{label}</div>
 );
-
+ 
 export const TitleSubtitle = ({ label, nameClass }) => (
   <div className={ 'subtitle ' + nameClass}>{label}</div>
 );

@@ -8,7 +8,7 @@ import { SectionComponentFieldSix } from './SectionComponent6';
 import { SectionComponentFieldSeven } from './SectionComponent7';
 
 class App extends Component {
-
+ 
   render() {
     return (
       <div>

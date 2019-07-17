@@ -5,7 +5,7 @@ import { Columns, Column  } from './bulma_components/ColumnsComponent';
 import { Listitemwrapper, Listitemwrapperend } from './bulma_components/ListitemwrapperComponent';
 import { Dropdown, DropdownTrigger, DropdownTrigger, DropdownMenu, DropdownResult } from './bulma_components/DropdownComponent';
 import { Button } from './bulma_components/ButtonComponent';
-
+ 
 export const CustomCardSection3 = ({ nameClass,children,titleLabel }) => (
   <Card nameClass={nameClass}>
     <CardContent>

@@ -3,7 +3,7 @@ import { Title } from './sub_components/bulma_components/TitleComponent';
 import { Columns, Column  } from './sub_components/bulma_components/ColumnsComponent';
 import { CustomCardSection4 } from './sub_components/CustomCard';
 import { ColumnSection4 } from './sub_components/CustomColumns';
-
+ 
 var hrStyle = {
   position: 'relative',
   zIndex: '4',

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from './sub_components/bulma_components/ButtonComponent';
 import { NavbarField7, NavbarField7p1 } from './sub_components/CustomNavbar'
-
+ 
 var footerBg = './app/css/assets/footer-bg.png';
 var footerTitle = 'Join we:{fund} and start earning!';
 var hrStyle = {

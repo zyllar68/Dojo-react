@@ -7,7 +7,7 @@ export const Dropdown = ( nameClass, children ) = (
   </div>
 
 );
-
+ 
 export const DropdownTrigger = ( nameClass, children ) = (
 
   <div className={ 'dropdown-trigger ' + nameClass }>

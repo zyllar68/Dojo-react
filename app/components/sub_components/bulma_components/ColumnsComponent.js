@@ -6,7 +6,7 @@ export const Columns = ({ nameClass, children}) => (
     {children}
   </div>
 );
-
+ 
 export const Column = ({ nameClass, children }) => (
   <div className={ 'column ' + nameClass }>
     {children}

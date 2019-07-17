@@ -7,7 +7,7 @@ var footerCR = '©2019 – we:{fund} | All right reserved';
 export const NavbarField = () => (
   <Navbar id='navbar-top'>
     <div className="container">
-
+ 
       <NavbarBrand nameClass='padded-mobile-navbar'>
         <NavbarItem nameClass='none-pointer'>
           <img src="./app/css/assets/logo.png" alt="logo" />
