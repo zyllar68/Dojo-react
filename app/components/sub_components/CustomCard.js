@@ -2,6 +2,7 @@ import React from 'react';
 import { Title } from './bulma_components/TitleComponent';
 import { Card, CardContent } from './bulma_components/CardComponent';
 import { Columns, Column  } from './bulma_components/ColumnsComponent';
+import { Listitemwrapper, Listitemwrapperend } from './bulma_components/ListitemwrapperComponent';
 
 var imageSrc;
 
@@ -26,4 +27,19 @@ export const CustomCardContent3 = ({ nClass, label, imageSrc }) => (
     </Column>
     <Column nameClass='is-1'></Column>
   </Columns>
+);
+
+export const CustomCardSection4 = () => (
+  <Card nameClass='section4 mt-3 how-it-works-left'>
+    <CardContent>
+      <div className='list-wrapper'>
+        <div className="red-line"></div>
+        <Listitemwrapper label='We analyze available properties'/>
+        <Listitemwrapper nameClass='mt-3' label='We scan hundreds of data points on each property'/>
+        <Listitemwrapper nameClass='mt-3' label='Our Machine Learning algorithm seeks out the highest yielding properties'/>
+        <Listitemwrapper nameClass='mt-3' label='You choose your Investment Type and invest'/>
+        <Listitemwrapperend nameClass='mt-3' label='Relax and watch your portfolio grow over time'/>
+      </div>
+    </CardContent>
+  </Card>
 );

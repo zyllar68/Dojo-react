@@ -555,6 +555,10 @@ body, html{
   cursor: default !important;
 }
 
+.wid-15cent{
+  width: 15% !important;
+}
+
 /* Mobile View */
 
 @media only screen and (max-width: 768px){
