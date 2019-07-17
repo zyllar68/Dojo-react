@@ -84,6 +84,10 @@ body, html{
   padding-top: 1rem !important;
 }
 
+.padding-0{
+  padding: 0px !important;
+}
+
 .dim-black{
   background-color: #303030 !important;
   height: 1000px !important;
@@ -260,7 +264,7 @@ body, html{
   padding: 148px 57px 3rem 100px !important;
 }
 
-.container-section6>h1{
+.container-section6>.title{
   letter-spacing: 0.5px !important;
   font-family: 'Merriweather', serif !important;
   color: #373640 !important;
@@ -269,7 +273,7 @@ body, html{
   margin-bottom: 25px;
 }
 
-.container-section6>h2{
+.container-section6>.subtitle{
   font-family: 'Raleway', sans-serif;
   font-weight: 400 !important;
   color: #373640 !important;

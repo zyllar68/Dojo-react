@@ -35,7 +35,6 @@ export const SectionComponentFieldFour = () => (
       <ColumnSection4 nameClass='is-one-fifth wid-15cent' imgSrc='./app/css/assets/Box2.svg' label='One of our agents will call you to discuss your investment goals and strategy'/>
       <ColumnSection4 nameClass='is-one-fifth wid-15cent' imgSrc='./app/css/assets/Box3.svg' label='hoose the investment type that fits your portfolio and invest directly on our platform'/>
       <ColumnSection4 nameClass='is-one-fifth wid-15cent' imgSrc='./app/css/assets/Box4.svg' label='Monitor your investment’s growth directly on our platform'/>
-
     </Columns>
 
   </section>

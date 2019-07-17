@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavbarField } from './sub_components/CustomNavbar'
-import { Title, SubTitle } from './sub_components/bulma_components/TitleComponent';
+import { Title, Subtitle } from './sub_components/bulma_components/TitleComponent';
 import { LinkButton } from './sub_components/bulma_components/ButtonComponent';
 
 var image1 = "./app/css/assets/background.png";
@@ -16,7 +16,7 @@ export const SectionComponentFieldOne = () => (
             label='TAP INTO A BRAND-NEW ASSET CLASS'
             nameClass='has-text-white title-section1'
           />
-          <SubTitle
+          <Subtitle
             label='Wall Street returns for the individual investor'
             nameClass='has-text-white'
           />

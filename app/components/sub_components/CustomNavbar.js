@@ -2,6 +2,7 @@ import React from 'react';
 import { LinkButton } from './bulma_components/ButtonComponent';
 import { Navbar, NavbarStart, NavbarEnd, NavbarItem, NavbarBrand, NavbarBurger, NavbarMenu } from './bulma_components/NavbarComponent';
 
+var footerCR = '©2019 – we:{fund} | All right reserved';
 
 export const NavbarField = () => (
   <Navbar id='navbar-top'>
@@ -52,4 +53,73 @@ export const NavbarField = () => (
     </div>
     <div className="dim-black display-none" id="dim-bg"></div>
   </Navbar>
+);
+
+export const NavbarField7 = () => (
+
+  <Navbar nameClass='footer-navbar'>
+    <div className='container'>
+      <NavbarMenu>
+        <NavbarStart>
+          <NavbarItem>
+            ABOUT US
+          </NavbarItem>
+          <NavbarItem>
+            HOW IT WORKS
+          </NavbarItem>
+          <NavbarItem>
+            INVESTMENT TYPES
+          </NavbarItem>
+          <NavbarItem>
+            EDUCATION
+          </NavbarItem>
+          <NavbarItem>
+            FAQ
+          </NavbarItem>
+        </NavbarStart>
+        <NavbarEnd>
+          <NavbarItem>
+            LOGIN
+          </NavbarItem>
+          <NavbarItem>
+            LOGIN
+          </NavbarItem>
+        </NavbarEnd>
+      </NavbarMenu>
+    </div>
+  </Navbar>
+
+);
+
+export const NavbarField7p1 = () => (
+
+  <Navbar nameClass='footer-navbar2'>
+    <div className='container'>
+      <NavbarMenu>
+        <NavbarStart>
+          <NavbarItem>
+            <img src="../app/css/assets/logo.png" />
+          </NavbarItem>
+          <NavbarItem>
+            <img src="../app/css/assets/facebook.png" />
+          </NavbarItem>
+          <NavbarItem>
+            <img src="../app/css/assets/linkedin@3x.png" />
+          </NavbarItem>
+          <NavbarItem>
+            <img src="../app/css/assets/twitter@3x.png" />
+          </NavbarItem>
+          <NavbarItem>
+            <img src="../app/css/assets/instagram@3x.png" />
+          </NavbarItem>
+        </NavbarStart>
+        <NavbarEnd>
+          <NavbarItem>
+            {footerCR}
+          </NavbarItem>
+        </NavbarEnd>
+      </NavbarMenu>
+    </div>
+  </Navbar>
+
 );

@@ -7,7 +7,7 @@ export const LinkButton = ({nameClass, label,}) => (
 );
 
 export const Button = ({nameClass, label,}) => (
-  <Button className={ 'button ' + nameClass}>
+  <button className={ 'button ' + nameClass}>
     <strong>{label}</strong>
-  </Button>
+  </button>
 );

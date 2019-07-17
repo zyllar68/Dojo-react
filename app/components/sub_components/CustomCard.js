@@ -3,8 +3,8 @@ import { Title } from './bulma_components/TitleComponent';
 import { Card, CardContent } from './bulma_components/CardComponent';
 import { Columns, Column  } from './bulma_components/ColumnsComponent';
 import { Listitemwrapper, Listitemwrapperend } from './bulma_components/ListitemwrapperComponent';
-
-var imageSrc;
+import { Dropdown, DropdownTrigger, DropdownTrigger, DropdownMenu, DropdownResult } from './bulma_components/DropdownComponent';
+import { Button } from './bulma_components/ButtonComponent';
 
 export const CustomCardSection3 = ({ nameClass,children,titleLabel }) => (
   <Card nameClass={nameClass}>
@@ -42,4 +42,26 @@ export const CustomCardSection4 = () => (
       </div>
     </CardContent>
   </Card>
+);
+
+export const CustomCardSection5 = () => (
+
+  <Card>
+    <CardContent>
+      <Columns nameClass='is-multiline'>
+        <Column>
+          <Dropdown nameClass='section6dropdown'>
+            <DropdownTrigger>
+
+            </DropdownTrigger>
+          </Dropdown>
+        </Column>
+        <Column></Column>
+        <Column></Column>
+        <Column></Column>
+        <Column></Column>
+      </Columns>
+    </CardContent>
+  </Card>
+
 );
