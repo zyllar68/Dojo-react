@@ -1,11 +1,11 @@
 import React from 'react';
-import { Title } from './bulma_components/TitleComponent';
+import { Title, Subtitle } from './bulma_components/TitleComponent';
 import { Card, CardContent } from './bulma_components/CardComponent';
 import { Columns, Column  } from './bulma_components/ColumnsComponent';
 import { Listitemwrapper, Listitemwrapperend } from './bulma_components/ListitemwrapperComponent';
-import { Dropdown, DropdownTrigger, DropdownTrigger, DropdownMenu, DropdownResult } from './bulma_components/DropdownComponent';
+import { ColumnSection5 } from './CustomColumns';
 import { Button } from './bulma_components/ButtonComponent';
- 
+
 export const CustomCardSection3 = ({ nameClass,children,titleLabel }) => (
   <Card nameClass={nameClass}>
     <CardContent>
@@ -49,18 +49,30 @@ export const CustomCardSection5 = () => (
   <Card>
     <CardContent>
       <Columns nameClass='is-multiline'>
+        <ColumnSection5 label='Location' iconClass='fas fa-angle-down' iconNameClass='is-small' resultLabel='Los Angeles, CA'/>
+        <ColumnSection5 label='Property Type' iconClass='fas fa-angle-down' iconNameClass='is-small' resultLabel='Duplex'/>
+        <ColumnSection5 label='Min. Price' iconClass='fas fa-angle-down' iconNameClass='is-small' resultLabel='$20,000'/>
+        <ColumnSection5 label='Max Price' iconClass='fas fa-angle-down' iconNameClass='is-small' resultLabel='$50,000'/>
         <Column>
-          <Dropdown nameClass='section6dropdown'>
-            <DropdownTrigger>
-
-            </DropdownTrigger>
-          </Dropdown>
+          <Button label='FILTER PROPERTIES' nameClass='is-bluebg section6-button-filter'/>
         </Column>
-        <Column></Column>
-        <Column></Column>
-        <Column></Column>
-        <Column></Column>
       </Columns>
+    </CardContent>
+  </Card>
+
+);
+
+export const CustomCardSectionHouse5 = ({ imgNameClass, imgHouse, imgHeart }) => (
+
+  <Card nameClass='card-for-houses' stylish={{backgroundImage: "url(" + imgHouse + ")"}}>
+    <CardContent>
+      <img className={imgNameClass} src={imgHeart}/>
+      <div className='content-name'>
+        <Title label='$200,00'>
+          <Subtitle label='Property NameProperty NameProperty NameProperty NameProperty NameProperty NameProperty NameProperty Name' />
+        </Title>
+        <Subtitle label='Los Angeles, CA' />
+      </div>
     </CardContent>
   </Card>
 

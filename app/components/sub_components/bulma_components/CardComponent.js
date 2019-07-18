@@ -1,11 +1,11 @@
 import React from 'react';
 
-export const Card = ({ nameClass, children }) => (
-  <div className={'card ' + nameClass}>
+export const Card = ({ nameClass, children, stylish }) => (
+  <div className={'card ' + nameClass} style={stylish}>
     { children }
   </div>
 );
- 
+
 export const CardHeader = ({ nameClass, children }) => (
   <div className={'card-header ' + nameClass}>
     { children }

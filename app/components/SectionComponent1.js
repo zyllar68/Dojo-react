@@ -9,7 +9,7 @@ export const SectionComponentFieldOne = () => (
     <section className="hero is-fullheight has-background-image"  style={{backgroundImage: "url(" + image1 + ")"}}>
       <div className="hero-head">
         <NavbarField />
-      </div> 
+      </div>
       <div className="hero-body has-text-white nav-body">
         <div className="container has-text-centered">
           <Title

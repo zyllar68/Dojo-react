@@ -1,7 +1,7 @@
 import React from 'react';
 import { SectionTitleTwo } from './sub_components/bulma_components/TitleComponent';
 import { Columns, Column }  from './sub_components/bulma_components/ColumnsComponent';
- 
+
 export const SectionComponentFieldTwo = () => (
     <section className="section section2">
       <Columns nameClass='is-multiline'>
